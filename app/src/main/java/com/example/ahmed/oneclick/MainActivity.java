@@ -83,16 +83,20 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_profile) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
+            // Handle the profile action
+        } else if (id == R.id.nav_myorder) {
 
         } else if (id == R.id.nav_share) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_faqs) {
+
+        } else if (id == R.id.nav_livechat) {
+
+        } else if (id == R.id.nav_callus) {
+
+            }else if (id == R.id.nav_signin) {
+
+        }else if (id == R.id.nav_cart) {
 
         }
 
