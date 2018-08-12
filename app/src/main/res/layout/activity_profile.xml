@@ -10,10 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
     <TextView
-        android:text="Hi, we need your phone number to
-              verify your identity"
+        android:text="Hi, we need your phone number to verify your identity"
         android:layout_marginTop="130dp"
-     android:layout_marginLeft="50dp"
+     android:layout_marginLeft="20dp"
         android:textSize="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -31,6 +30,13 @@
         android:background="#FFFAFA"
         android:layout_marginTop="310dp"
         android:layout_marginLeft="137dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="*Existing users will log in right after verifiying the SMS confirmation code"
+        android:textSize="15sp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
