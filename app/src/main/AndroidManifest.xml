@@ -15,6 +15,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -24,9 +25,19 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".Profile" />
+        <activity android:name=".Orderr" />
+        <activity android:name=".Share" />
+        <activity android:name=".Faqs" />
+        <activity android:name=".FAQs" />
+        <activity android:name=".Livechat" />
+        <activity android:name=".Callus" />
+        <activity android:name=".Signin" />
+        <activity android:name=".Cart"></activity>
     </application>
 
 </manifest>

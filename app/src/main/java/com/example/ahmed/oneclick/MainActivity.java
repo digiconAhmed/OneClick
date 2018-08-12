@@ -1,5 +1,6 @@
 package com.example.ahmed.oneclick;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -84,19 +85,35 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_profile) {
             // Handle the profile action
+            Intent intent = new Intent(MainActivity.this,Profile.class);
+            startActivity(intent);
         } else if (id == R.id.nav_myorder) {
+            Intent intent =new Intent(MainActivity.this,Orderr.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_share) {
+            Intent intent = new Intent(MainActivity.this,Share.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_faqs) {
+            Intent intent=new Intent(MainActivity.this,FAQs.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_livechat) {
+            Intent intent=new Intent(MainActivity.this,Livechat.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_callus) {
+            Intent intent=new Intent(MainActivity.this,Callus.class);
+            startActivity(intent);
 
             }else if (id == R.id.nav_signin) {
+            Intent intent=new Intent(MainActivity.this,Signin.class);
+            startActivity(intent);
 
         }else if (id == R.id.nav_cart) {
+            Intent intent=new Intent(MainActivity.this,Cart.class);
+            startActivity(intent);
 
         }
 
