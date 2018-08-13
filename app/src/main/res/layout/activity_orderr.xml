@@ -4,12 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E8E8E8"
     tools:context=".Orderr">
     <TextView
-        android:text="Order"
-        android:textSize="50sp"
-        android:layout_centerInParent="true"
+        android:text="Let's create your first order"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="220dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
+    <Button
+        android:background="#FF4500"
+        android:text="start shopping"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="or"
+        android:textColor="#000000"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Login"
+        android:textColor="#FF4500"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="119dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="to see order history"
+        android:textColor="#000000"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="158dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </RelativeLayout>

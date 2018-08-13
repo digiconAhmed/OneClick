@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
 
         } else if (id == R.id.nav_livechat) {
-            Intent intent=new Intent(MainActivity.this,Livechat.class);
+            Intent intent=new Intent(MainActivity.this,Profile.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_callus) {
@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
 
             }else if (id == R.id.nav_signin) {
-            Intent intent=new Intent(MainActivity.this,Signin.class);
+            Intent intent=new Intent(MainActivity.this,Profile.class);
             startActivity(intent);
 
         }else if (id == R.id.nav_cart) {
